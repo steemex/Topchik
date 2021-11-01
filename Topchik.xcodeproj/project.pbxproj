@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0E26BB272FEFDC00E6677F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E26BA272FEFDC00E6677F /* ContentViewModel.swift */; };
 		6F11D3D9260D35D400E56004 /* TopchikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11D3D8260D35D400E56004 /* TopchikApp.swift */; };
 		6F11D3DB260D35D400E56004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11D3DA260D35D400E56004 /* ContentView.swift */; };
-		6F11D3DD260D35D900E56004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F11D3DC260D35D900E56004 /* Assets.xcassets */; };
 		6F11D3E0260D35D900E56004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F11D3DF260D35D900E56004 /* Preview Assets.xcassets */; };
+		6F11D3EA260D40DD00E56004 /* SaleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11D3E9260D40DD00E56004 /* SaleItem.swift */; };
+		6F11D3ED260D433700E56004 /* SystemMessagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11D3EC260D433700E56004 /* SystemMessagesList.swift */; };
+		6F11D3F1260D46E000E56004 /* SaleItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11D3F0260D46E000E56004 /* SaleItemsList.swift */; };
+		6FCCAEF0260D55C80081ACBF /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCAEED260D55C80081ACBF /* appstore.png */; };
+		6FCCAEF1260D55C80081ACBF /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCAEEE260D55C80081ACBF /* playstore.png */; };
+		6FCCAEF2260D55C80081ACBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCCAEEF260D55C80081ACBF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F0E26BA272FEFDC00E6677F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		6F11D3D5260D35D400E56004 /* Topchik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Topchik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F11D3D8260D35D400E56004 /* TopchikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopchikApp.swift; sourceTree = "<group>"; };
 		6F11D3DA260D35D400E56004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6F11D3DC260D35D900E56004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F11D3DF260D35D900E56004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F11D3E1260D35D900E56004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F11D3E9260D40DD00E56004 /* SaleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleItem.swift; sourceTree = "<group>"; };
+		6F11D3EC260D433700E56004 /* SystemMessagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMessagesList.swift; sourceTree = "<group>"; };
+		6F11D3F0260D46E000E56004 /* SaleItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleItemsList.swift; sourceTree = "<group>"; };
+		6FCCAEED260D55C80081ACBF /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appstore.png; path = AppIcons/appstore.png; sourceTree = SOURCE_ROOT; };
+		6FCCAEEE260D55C80081ACBF /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playstore.png; path = AppIcons/playstore.png; sourceTree = SOURCE_ROOT; };
+		6FCCAEEF260D55C80081ACBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AppIcons/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0E26B9272FEFBC00E6677F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F11D3DA260D35D400E56004 /* ContentView.swift */,
+				6F0E26BA272FEFDC00E6677F /* ContentViewModel.swift */,
+				6F11D3EC260D433700E56004 /* SystemMessagesList.swift */,
+				6F11D3F0260D46E000E56004 /* SaleItemsList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6F11D3CC260D35D400E56004 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				6F11D3D8260D35D400E56004 /* TopchikApp.swift */,
-				6F11D3DA260D35D400E56004 /* ContentView.swift */,
-				6F11D3DC260D35D900E56004 /* Assets.xcassets */,
+				6F0E26B9272FEFBC00E6677F /* View */,
+				6F11D3E9260D40DD00E56004 /* SaleItem.swift */,
+				6FCCAEED260D55C80081ACBF /* appstore.png */,
+				6FCCAEEF260D55C80081ACBF /* Assets.xcassets */,
+				6FCCAEEE260D55C80081ACBF /* playstore.png */,
 				6F11D3E1260D35D900E56004 /* Info.plist */,
 				6F11D3DE260D35D900E56004 /* Preview Content */,
 			);
@@ -127,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F11D3E0260D35D900E56004 /* Preview Assets.xcassets in Resources */,
-				6F11D3DD260D35D900E56004 /* Assets.xcassets in Resources */,
+				6FCCAEF0260D55C80081ACBF /* appstore.png in Resources */,
+				6FCCAEF1260D55C80081ACBF /* playstore.png in Resources */,
+				6FCCAEF2260D55C80081ACBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F11D3F1260D46E000E56004 /* SaleItemsList.swift in Sources */,
+				6F11D3ED260D433700E56004 /* SystemMessagesList.swift in Sources */,
+				6F0E26BB272FEFDC00E6677F /* ContentViewModel.swift in Sources */,
 				6F11D3DB260D35D400E56004 /* ContentView.swift in Sources */,
+				6F11D3EA260D40DD00E56004 /* SaleItem.swift in Sources */,
 				6F11D3D9260D35D400E56004 /* TopchikApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Topchik/Preview Content\"";
 				DEVELOPMENT_TEAM = UM497N4M4V;
@@ -279,8 +312,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.steemex.Topchik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Topchik/Preview Content\"";
 				DEVELOPMENT_TEAM = UM497N4M4V;
@@ -301,8 +336,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.steemex.Topchik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
