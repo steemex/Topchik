@@ -49,11 +49,18 @@
 			isa = PBXGroup;
 			children = (
 				6F11D3DA260D35D400E56004 /* ContentView.swift */,
-				6F0E26BA272FEFDC00E6677F /* ContentViewModel.swift */,
 				6F11D3EC260D433700E56004 /* SystemMessagesList.swift */,
 				6F11D3F0260D46E000E56004 /* SaleItemsList.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6F0E26BC272FFA7600E6677F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F11D3E9260D40DD00E56004 /* SaleItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6F11D3CC260D35D400E56004 = {
@@ -76,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				6F11D3D8260D35D400E56004 /* TopchikApp.swift */,
+				6F0E26BA272FEFDC00E6677F /* ContentViewModel.swift */,
 				6F0E26B9272FEFBC00E6677F /* View */,
-				6F11D3E9260D40DD00E56004 /* SaleItem.swift */,
+				6F0E26BC272FFA7600E6677F /* Model */,
 				6FCCAEED260D55C80081ACBF /* appstore.png */,
 				6FCCAEEF260D55C80081ACBF /* Assets.xcassets */,
 				6FCCAEEE260D55C80081ACBF /* playstore.png */,

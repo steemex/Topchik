@@ -14,13 +14,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                if !viewModel.systemMessages.isEmpty {
-                    VStack {
-                        SystemMessagesList(messages: viewModel.systemMessages)
-                    }
-                } else {
-                    //Text("success! items: \(saleItems.count)")
+                if viewModel.systemMessages.isEmpty {
                     SaleItemsList(items: viewModel.saleItems)
+                } else {
+                    SystemMessagesList(messages: viewModel.systemMessages)
                 }
                 Button("Refresh") { viewModel.getSaleItems() }
                     .padding(5)
